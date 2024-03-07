@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="slider.css" type="text/css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <img class="logo" src="./assets/images/logo.svg" alt="logo" width="64" heigth="64" />
+      <a href="" class="btn-black">Free Consultation</a>
+    </header>
+    <section class="hero headingL bodyM" aria-label="Short introduction">
+      <h1>Design solutions made easy</h1>
+      <p>
+        With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.
+      </p>
+    </section>
+    <section class="work-fields" aria-label="My frofetional work fields">
+      <div class="graphic-design card"><h2>Graphic Design</h2></div>
+      <div class="work-fiels-middle">
+        <div  class="work-fiels-middle-small">
+          <div class="ui-ux card"><h2>UI/UX</h2></div>
+          <div class="apps card"><h2>Apps</h2></div>
+        </div>        
+        <div class="illustrations card"><h2>Illustrations</h2></div>
+      </div>
+      <div  class="work-fiels-right">
+        <div class="photography card"><h2>Photography</h2></div>
+        <div class="motion-graphics card"><h2>Motion Graphics</h2></div>
+      </div>
+    </section>
+    <main aria-label="About me">
+      <div class="profile-photo">
+        <img src="./assets/images/image-amy.webp" alt="Amy" width="445" height="445" />
+      </div>
+      <div class="profile-text headingM bodyM">
+        <h2>I'm Amy, and I'd love to work on your next project</h2>
+        <p>
+          I love working with others to create beautiful design solutions. I've designed everything from brand illustrations 
+          to complete mobile apps. I'm also handy with a camera!
+        </p>
+        <a href="" class="btn-orange">Free Consultation</a>
+      </div>
+    </main>
+  </div>
+<!-- 
+  <section class="slider" aria-label="My projects">
+
+  </section> -->
+  <div class="slider-main-wrapper headingS">
+    <h2>My Work</h2>
+    <section class="slider-wrapper" aria-label="My projects">
+      
+      <ul class="slides-container" id="slides-container">
+        <li class="slide"><img src="./assets/images/image-slide-1.jpg" alt="Project #1"></li>
+        <li class="slide"><img src="./assets/images/image-slide-2.jpg" alt="Project #2"></li>
+        <li class="slide"><img src="./assets/images/image-slide-3.jpg" alt="Project #3"></li>
+        <li class="slide"><img src="./assets/images/image-slide-4.jpg" alt="Project #4"></li>
+        <li class="slide"><img src="./assets/images/image-slide-5.jpg" alt="Project #5"></li>
+      </ul>
+    </section>
+      <div class="slider-buttons">
+        <button class="slide-arrow" id="slide-arrow-prev" aria-label="previous">
+          <img src="./assets/images/icon-arrow-left.svg" width="14.81" height="16" />
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next" aria-label="next">
+          <img src="./assets/images/icon-arrow-right.svg" width="14.81" height="16" />
+        </button>
+      </div>
+  </div>
+
+  <div class="main-container">
+    <section class="call-for-action" aria-label="Booking a free consultation">
+      <div class="call-for-action-text headingM bodyM">
+        <h2>Book a call with me</h2>
+        <p>
+          I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+          free consultation. Then we can move forward from there.
+        </p>
+      </div>
+      <a href="" class="btn-orange">Free Consultation</a>
+    </section>
+
+    <footer>
+      <img src="./assets/images/logo.svg" alt="logo" width="64" heigth="64" />
+      <a href="" class="btn-black">Free Consultation</a>
+    </footer>
+  </div>
+
+  <!-- <script src="main.js"></script> -->
+  <script src="slider.js"></script>
+</body>
+</html>
