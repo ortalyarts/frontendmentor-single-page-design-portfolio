@@ -110,7 +110,6 @@ body {
   transition: 1s; 
 }
 header, footer{
-  margin-top: 1rem;
   max-width:100%;
   justify-self: stretch;
   align-self: stretch;
@@ -118,6 +117,9 @@ header, footer{
   grid-template-columns: 1fr 1fr;
   justify-items: space-between;
   align-items: center;
+}
+header{
+  margin-top:2.125rem;
 }
 .logo{
   width:3rem;
